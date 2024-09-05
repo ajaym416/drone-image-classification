@@ -19,7 +19,7 @@ The API accepts image upload, performs predictions and returns the results in a 
 
    ```bash
    git clone <repository-url>
-   cd fastapi-yolo
+   cd drone-image-classification
 
 2. **Build and Run the Docker Container**
 
