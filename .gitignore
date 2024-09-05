@@ -147,7 +147,6 @@ dmypy.json
 
 # migration versions
 versions/
-resources/
 src/worker/test.ipynb
 src/worker/test_extraction.ipynb
 src/worker/test_color_masking.ipynb

@@ -11,6 +11,8 @@ COPY requirements.txt .
 # Install any necessary dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+
 # Copy the current directory contents into the container at /app
 COPY . .
 
